@@ -1,0 +1,6 @@
+<div class="container">
+  <%= link("Create account", to: "/players/new", class: "btn btn-success") %>
+  <%= link("List players", to: "/players", class: "btn btn-info") %>
+  <%= IO.inspect("Hello World!") %>
+</div>
+
